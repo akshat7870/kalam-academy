@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: lightgray;
+}
+.logo img {
+    height: 50px;
+    
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    background-color: white;
+    position: sticky;
+    top: 0;
+    box-shadow: 0px -3px 14px 0px;
+}
+.links a {
+    text-decoration: none;
+    color: lightgray;
+  }
+  .links {
+    display: flex;
+    gap: 10px;
+    padding: 33px 30px;
+  }
+  .offer {
+    color: orangered;
+  }
+  .main {
+    display: flex;
+    justify-content: center;
+    /* justify-content: space-between; */
+    align-items: center;
+
+    gap: 2rem;
+    align-items: center;
+    padding: 6em;
+  }
+
+  .elementor-heading {
+    padding: 12% 22%;
+    text-align: center;
+    color: white;
+    font-family: Quicksand;
+    line-height: 1;
+    font-size: 32px;
+  }
+  /* note right pack */
+  .note-right {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    width: 364px;
+  }
+  .note-right .register {
+    font-size: 23px;
+    text-align: center;
+  }
+
+  .note-right input {
+    padding: 10px 20px;
+  }
+  .note-right .note1 {
+    padding: 23px 0;
+    text-align: center;
+    font-size: 12px;
+  }
+  .note-right .note2 {
+    font-size: 11px;
+    text-align: center;
+  }
+  .note-right button {
+    padding: 14px 20px;
+    background: #333;
+    border: 0;
+    color: #f7f7f7;
+    transition: all 0.5s;
+  }
+  .note-right button:hover {
+    background: #c4c4c4;
+    color: #787878;
+    transition: all 0.5s;
+  }
+  
