@@ -2392,7 +2392,7 @@ body {
 } */
 /* @media screen and (max-device-width: 688px) { */
   /* @media (width =393px) { */
-  @media (width =2.75px) {
+  @media (width =400) {
   .elementor-heading {
       padding: 0em 0em 1em;
       color: red;
