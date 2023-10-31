@@ -2392,10 +2392,19 @@ body {
 } */
 /* @media screen and (max-device-width: 688px) { */
   /* @media (width =393px) { */
-  @media (width =400) {
+    @media  (width =393px) {
+      .elementor-heading {
+        padding: 0em 0em 1em;
+        color: red;
+        font-family: Quicksand;
+        font-size: 49px;
+        width: 95%;
+    }
+    }
+  @media (width =2.75px) {
   .elementor-heading {
       padding: 0em 0em 1em;
-      color: red;
+      color: white;
       font-family: Quicksand;
       font-size: 49px;
       width: 95%;
