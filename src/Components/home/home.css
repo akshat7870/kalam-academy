@@ -2418,12 +2418,12 @@ body {
     line-height: 1.2;
     font-weight: 900;
     margin-left: -66px;
-}
+  }
   .video1 iframe {
-    width: 170%;
-    height: 23vh;
+    width: 156%;
+    height: 21vh;
     display: flex;
-    margin-left: -60px;
+    margin-left: -66px;
   }
   .note-right {
     display: flex;
@@ -2433,20 +2433,51 @@ body {
     align-items: revert;
     margin-top: 6em;
     margin-left: -18%;
+    font-size: 9px;
   }
   .note-right .register {
-    font-size: 43px;
+    font-size: 46px;
     text-align: center;
-    width: 137%;
-  }
-  .note-right {
-    font-size: 23px;
-    width: 173%;
-    font-weight: 700;
+    width: 150%;
+    margin-left: -15%;
   }
   .text-note {
-    font-size: 30px;
-    width: 117%;
+    font-size: 26px;
+    width: 132%;
+    font-weight: bold;
+  }
+  .note-right input {
+    padding: 10px 15px;
+    font-size: 29px;
+    width: 114%;
+  }
+  .note-right button {
+    font-size: 29px;
+    padding: 10px 0rem;
+    border-radius: 6px;
+    width: 129%;
+  }
+  .note-right .note1 {
+    padding: 23px 0;
+    text-align: center;
+    font-size: 24px;
+    width: 171%;
+    margin-left: -24%;
+  }
+  .note-right .note2 {
+    font-size: 25px;
+    width: 171%;
+    margin-left: 40px;
+    font-weight: 600;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+  }
+  .video2 iframe {
+    margin-left: -292px;
+    width: 67%;
+    height: 24vh;
   }
 }
 @media (width =2.75px) {
