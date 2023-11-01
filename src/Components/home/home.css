@@ -2420,11 +2420,11 @@ body {
     margin-left: -66px;
   }
   .video1 iframe {
-    width: 156%;
-    height: 21vh;
+    width: 256%;
+    height: 39vh;
     display: flex;
     margin-left: -66px;
-  }
+}
   .note-right {
     display: flex;
     flex-direction: column;
@@ -2478,7 +2478,7 @@ body {
     margin-left: -292px;
     width: 67%;
     height: 24vh;
-  }
+  } 
 }
 @media (width =2.75px) {
   .elementor-heading {
