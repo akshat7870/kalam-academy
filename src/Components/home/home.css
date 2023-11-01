@@ -2418,13 +2418,13 @@ body {
     line-height: 1.2;
     font-weight: 900;
     margin-left: -66px;
-}
+  }
   .video1 iframe {
-    width: 256%;
+    width: 267%;
     height: 39vh;
     display: flex;
     margin-left: -66px;
-}
+  }
   .note-right {
     display: flex;
     flex-direction: column;
@@ -2436,34 +2436,35 @@ body {
     font-size: 9px;
   }
   .note-right .register {
-    font-size: 46px;
+    font-size: 73px;
     text-align: center;
-    width: 150%;
+    width: 197%;
     margin-left: -15%;
   }
   .text-note {
-    font-size: 26px;
-    width: 132%;
+    font-size: 40px;
+    width: 166%;
     font-weight: bold;
   }
   .note-right input {
-    padding: 10px 15px;
-    font-size: 29px;
-    width: 114%;
-  }
-  .note-right button {
-    font-size: 29px;
-    padding: 10px 0rem;
-    border-radius: 6px;
-    width: 129%;
-  }
-  .note-right .note1 {
-    padding: 23px 0;
-    text-align: center;
-    font-size: 24px;
-    width: 171%;
-    margin-left: -24%;
-  }
+    padding: 17px 33px;
+    font-size: 41px;
+    width: 126%;
+    font-weight: bolder;
+}
+.note-right button {
+  font-size: 42px;
+  padding: 18px 0rem;
+  border-radius: 6px;
+  width: 147%;
+}
+.note-right .note1 {
+  padding: 23px 0;
+  text-align: center;
+  font-size: 42px;
+  width: 191%;
+  margin-left: -15%;
+}
   .note-right .note2 {
     font-size: 25px;
     width: 171%;
@@ -2478,7 +2479,7 @@ body {
     margin-left: -292px;
     width: 67%;
     height: 24vh;
-  } 
+  }
 }
 @media (width =2.75px) {
   .elementor-heading {
