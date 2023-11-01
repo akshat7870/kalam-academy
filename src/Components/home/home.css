@@ -2417,11 +2417,11 @@ body {
     width: 156%;
     line-height: 1.2;
     font-weight: 900;
-    margin-left: -36px;
+    margin-left: -66px;
 }
   .video1 iframe {
-    width: 220%;
-    height: 37vh;
+    width: 170%;
+    height: 23vh;
     display: flex;
     margin-left: -60px;
   }
@@ -2432,13 +2432,22 @@ body {
     /* width: 364px; */
     align-items: revert;
     margin-top: 6em;
-    margin: 0 0%;
-}
-.note-right .register {
-  font-size: 58px;
-  text-align: center;
-  width: 157%;
-}
+    margin-left: -18%;
+  }
+  .note-right .register {
+    font-size: 43px;
+    text-align: center;
+    width: 137%;
+  }
+  .note-right {
+    font-size: 23px;
+    width: 173%;
+    font-weight: 700;
+  }
+  .text-note {
+    font-size: 30px;
+    width: 117%;
+  }
 }
 @media (width =2.75px) {
   .elementor-heading {
