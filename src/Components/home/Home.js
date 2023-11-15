@@ -1,5 +1,6 @@
 import "./home.css";
 // import "../image"
+import "./footer.css";
 
 export default function Home() {
   return (
@@ -10,7 +11,6 @@ export default function Home() {
             HOW TO START YOUR DOORSTEP SERVICE BUSINESS
           </h1>
           <div className="video1">
-            
             <iframe
               width="560"
               height="315"
@@ -246,12 +246,12 @@ export default function Home() {
           <div className="address-pack" id="address-pack">
             <span id="ka-title">
               <b>Kalam Academy,</b>
-              
+
               <div className="address" id="address">
                 <p className="add" id="add">
                   4th Floor Rospa Tower
                 </p>
-               
+
                 <i class="fa-solid fa-location-dot" id="fa-location-dot">
                   <p className="location" id="location">
                     {" "}
@@ -278,21 +278,45 @@ export default function Home() {
                   business@kalamacademy.org
                 </p>
               </i>
-            <div id="map">
-            <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3662.8945231399352!2d85.32238297445824!3d23.355835603811183!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f4e1f419db0333%3A0x1933bf60e04ab50c!2sKalam%20Academy!5e0!3m2!1sen!2sin!4v1698395558104!5m2!1sen!2sin" id="map"
-              width="600"
-              height="450"
-              // style="border:0;"
-              allowfullscreen=""
-              loading="lazy"
-              referrerpolicy="no-referrer-when-downgrade"
-            ></iframe>
-            </div>
+              <div id="map">
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3662.8945231399352!2d85.32238297445824!3d23.355835603811183!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f4e1f419db0333%3A0x1933bf60e04ab50c!2sKalam%20Academy!5e0!3m2!1sen!2sin!4v1698395558104!5m2!1sen!2sin"
+                  id="map"
+                  width="600"
+                  height="450"
+                  // style="border:0;"
+                  allowfullscreen=""
+                  loading="lazy"
+                  referrerpolicy="no-referrer-when-downgrade"
+                ></iframe>
+              </div>
             </span>
           </div>
-        <div className="orange-line"></div>
-        </section>        
+          <div className="orange-line"></div>
+        </section>
+        <div className="footer">
+          <div className="center">
+            <a href="#">kalam Academy</a>
+          </div>
+          <div className="center-pack">
+            <p> Popular Tag</p>
+
+            <p>Digital Marketing Institute In Ranchi</p>
+            <p>Learn Digital Marketing In Ranchi</p>
+            <p>Digital Marketing Courses In Ranchi</p>
+            <p>Digital Marketing Coaching in Ranchi</p>
+            <p>Digital Marketing </p>
+
+            <p>Online Service Business</p>
+          </div>
+          <div className="left">
+            <a href="#">Facebook</a> <br />
+            <a href="#">Whatsapp</a> <br />
+            <a href="#">Instagaram</a> <br />
+            <a href="#">Twitteer</a>
+          </div>
+          <div className="right"></div>
+        </div>
       </div>
       {/* contact details */}
     </>

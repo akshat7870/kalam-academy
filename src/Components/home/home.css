@@ -721,7 +721,7 @@ body {
     padding: 36px 70px;
     font-family: ui-rounded;
     font-weight: 600;
-    line-height: 0px;
+    line-height: 80px;
     color: darkgray;
     font-size: 58px;
   }
@@ -2417,7 +2417,7 @@ body {
     width: 254%;
     line-height: 1.2;
     font-weight: 900;
-    margin-left: -66px;
+    margin-left: -37px;
   }
   .video1 iframe {
     width: 267%;
@@ -2439,31 +2439,34 @@ body {
     font-size: 73px;
     text-align: center;
     width: 197%;
-    margin-left: -15%;
+    margin-left: 0%;
   }
   .text-note {
     font-size: 40px;
     width: 166%;
     font-weight: bold;
-  }
-  .note-right input {
-    padding: 17px 33px;
-    font-size: 41px;
-    width: 126%;
-    font-weight: bolder;
+    margin: 0 68px;
+}
+.note-right input {
+  padding: 17px 33px;
+  font-size: 41px;
+  width: 146%;
+  font-weight: bolder;
+  margin-left: 51px;
 }
 .note-right button {
-  font-size: 42px;
+  font-size: 41px;
   padding: 18px 0rem;
   border-radius: 6px;
-  width: 147%;
+  width: 167%;
+  margin-left: 51px;
 }
 .note-right .note1 {
   padding: 23px 0;
   text-align: center;
   font-size: 42px;
   width: 191%;
-  margin-left: -15%;
+  margin-left: 0%;
 }
 .note-right .note2 {
   font-size: 32px;
@@ -2472,6 +2475,7 @@ body {
   text-align: center;
   display: flex;
   justify-content: center;
+  margin-left: 40px;
 }
 .video2 {
   display: flex;
@@ -2479,10 +2483,10 @@ body {
   flex-wrap: wrap;
   align-items: center;
   flex-direction: column;
-  width: 465px;
-  height: 41vh;
+  width: 555px;
+  height: 54vh;
   padding: 0 0%;
-  margin-left: 160px;
+  margin-left: 146px;
 }
 .video2 iframe {
   margin-left: -146px;
@@ -2494,6 +2498,7 @@ body {
   font-size: 62px;
   padding: 38px 0px;
   width: 167%;
+  margin-left: 53px;
 }
 .text2 {
   color: white;
@@ -2502,6 +2507,16 @@ body {
   padding: 17px 0em;
   width: 168%;
   text-align: center;
+  margin-left: 58px;
+}
+.container {
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  text-align: center;
+  width: 52%;
+  margin: 8rem 193px;
 }
 #i-icon {
   color: #f87903;
@@ -2572,8 +2587,9 @@ body {
   font-size: 46px;
   font-weight: 400;
   text-transform: uppercase;
-  width: 78%;
-  padding: 0rem 208px;
+  width: 79%;
+  padding: -2rem 208px;
+  margin-left: 183px;
 }
 .list-bar1 {
   display: flex;
@@ -3479,7 +3495,7 @@ span b {
   padding: 0 35px;
   font-family: ui-rounded;
   font-weight: 600;
-  line-height: 5px;
+  line-height: 52px;
   color: darkgray;
   font-size: 22px;
 }
